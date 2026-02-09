@@ -130,11 +130,11 @@ def main():
     )
 
     if sample_avg >= lower_bound and sample_avg <= upper_bound:
-        print("Sample average is within bounds. ^_^")
+        print("Sample average is within bounds. ^_^ ")
     elif sample_avg > upper_bound:
-        print("Sample average is greater than upper bound. :(")
+        print("Sample average is greater than upper bound. :( ")
     else:
-        print("Sample average is lesser than lower bound. (")
+        print("Sample average is lesser than lower bound. :( ")
 
 
 main()
